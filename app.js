@@ -19,7 +19,9 @@ console.log(`Masyvas: ` + array);
 
 console.log(`---masyvai-basic-2a---`);
 
-console.log(array.filter(a => a > 10));
+let kiekis = 0;
+MediaSession.forEach(a => a > 10 ? kiekis += 1 : null);
+console.log(kiekis);
 
 
 /* b. Raskite didžiausią masyvo reikšmę ir jos indeksą; */
